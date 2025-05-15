@@ -13,7 +13,7 @@ const AppContextProvider = (props)=>{
  
 
 
-    const backendUrl = "http://localhost:4000"
+    const backendUrl = "https://imagify-backendv1.netlify.app/"
     const navigate = useNavigate()
 
     const loadCredits = async ()=>{
