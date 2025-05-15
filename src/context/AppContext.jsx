@@ -13,7 +13,7 @@ const AppContextProvider = (props)=>{
  
 
 
-    const backendUrl = "https://imagify-backend-sigma.vercel.app"
+    const backendUrl = "https://imagify-backend3.onrender.com"
     const navigate = useNavigate()
 
     const loadCredits = async ()=>{
