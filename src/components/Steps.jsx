@@ -6,7 +6,7 @@ const Steps = () => {
     <div className='flex flex-col items-center justify-center my-32'>
       <h1 className='text-4xl sm:text-5xl font-semibold mb-4'>How it works</h1>
       <p className='text-xl text-gray-600 mb-10'>Transform your words into stunning images</p>
-
+ 
       <div className='space-y-6 w-full max-w-3xl text-base'>
         {stepsData.map((item, index)=>(
               <div key = {index} 
