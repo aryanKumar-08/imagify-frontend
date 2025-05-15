@@ -13,7 +13,7 @@ const AppContextProvider = (props)=>{
  
 
 
-    const backendUrl = import.meta.env.VITE_BACKEND_URL
+    const backendUrl = "http://localhost:4000"
     const navigate = useNavigate()
 
     const loadCredits = async ()=>{
